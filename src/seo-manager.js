@@ -7,20 +7,20 @@ const seoData = {
     title: "Aamblv Technologies - Digital Transformation & Web Development",
     description: "Transform your business with cutting-edge digital solutions. Web development, mobile apps, cloud services, and AI-powered platforms by Aamblv Technologies.",
     keywords: "web development, mobile apps, digital transformation, software solutions, cloud services, India",
-    ogImage: "https://aamblv-technologies.com/og-image-home.jpg",
+    ogImage: "https://aamblvtech.in/og-image-home.jpg",
     schema: {
       "@context": "https://schema.org",
       "@type": "WebPage",
       "name": "Aamblv Technologies - Home",
       "description": "Digital transformation and innovative tech solutions",
-      "image": "https://aamblv-technologies.com/og-image-home.jpg"
+      "image": "https://aamblvtech.in/og-image-home.jpg"
     }
   },
   about: {
     title: "About Aamblv Technologies - Our Team & Mission",
     description: "Learn about Aamblv Technologies, our mission to transform businesses through innovation, our talented team, and our commitment to digital excellence.",
     keywords: "about aamblv, digital transformation company, web development team, software company India",
-    ogImage: "https://aamblv-technologies.com/og-image-about.jpg",
+    ogImage: "https://aamblvtech.in/og-image-about.jpg",
     schema: {
       "@context": "https://schema.org",
       "@type": "AboutPage",
@@ -32,7 +32,7 @@ const seoData = {
     title: "Our Services - Web & Mobile Development | Aamblv Technologies",
     description: "Explore our comprehensive digital services: web development, mobile apps, cloud solutions, AI/ML, UI/UX design, and more. Custom solutions for your business.",
     keywords: "web development services, mobile app development, cloud services, UI/UX design, AI/ML solutions, software development",
-    ogImage: "https://aamblv-technologies.com/og-image-services.jpg",
+    ogImage: "https://aamblvtech.in/og-image-services.jpg",
     schema: {
       "@context": "https://schema.org",
       "@type": "Service",
@@ -45,7 +45,7 @@ const seoData = {
     title: "Our Portfolio - Successful Projects | Aamblv Technologies",
     description: "View our portfolio of successful projects across e-commerce, SaaS, mobile apps, and more. See how we've helped businesses achieve their goals.",
     keywords: "portfolio, projects, case studies, web applications, mobile apps, project showcase",
-    ogImage: "https://aamblv-technologies.com/og-image-portfolio.jpg",
+    ogImage: "https://aamblvtech.in/og-image-portfolio.jpg",
     schema: {
       "@context": "https://schema.org",
       "@type": "CollectionPage",
@@ -55,9 +55,9 @@ const seoData = {
   },
   contact: {
     title: "Contact Us - Get in Touch | Aamblv Technologies",
-    description: "Ready to start your next project? Contact Aamblv Technologies. We're based in New Delhi, India, and available globally. Call, email, or send us a message.",
+    description: "Ready to start your next project? Contact Aamblv Technologies. We're based in Hyderabad and Warangal, Telangana, India, and available globally. Call, email, or send us a message.",
     keywords: "contact aamblv, get in touch, contact form, business inquiry, support",
-    ogImage: "https://aamblv-technologies.com/og-image-contact.jpg",
+    ogImage: "https://aamblvtech.in/og-image-contact.jpg",
     schema: {
       "@context": "https://schema.org",
       "@type": "ContactPage",
@@ -69,7 +69,7 @@ const seoData = {
     title: "Careers - Join Our Team | Aamblv Technologies",
     description: "Join Aamblv Technologies and be part of a talented team transforming the digital landscape. Explore career opportunities in web development, design, and more.",
     keywords: "careers, jobs, hiring, web developer jobs, design jobs, tech careers India",
-    ogImage: "https://aamblv-technologies.com/og-image-careers.jpg",
+    ogImage: "https://aamblvtech.in/og-image-careers.jpg",
     schema: {
       "@context": "https://schema.org",
       "@type": "CollectionPage",
@@ -84,7 +84,7 @@ const seoData = {
  */
 function updateMetaTags(page) {
   const data = seoData[page] || seoData.home;
-  const baseUrl = "https://aamblv-technologies.com";
+  const baseUrl = "https://aamblvtech.in";
   const currentPath = window.location.pathname === "/" ? "/" : window.location.pathname;
 
   // Update title

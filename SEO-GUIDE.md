@@ -9,13 +9,13 @@ This document provides a complete guide to the SEO infrastructure implemented fo
 - Tells search engine crawlers which pages to crawl and which to avoid
 - Specifies sitemap location
 - Defines crawl delays and user-agent specific rules
-- Location: `https://aamblv-technologies.com/robots.txt`
+- Location: `https://aamblvtech.in/robots.txt`
 
 ### 2. **sitemap.xml** (`public/sitemap.xml`)
 - XML file that lists all important URLs on the website
 - Helps search engines discover and index all pages
 - Includes priority levels and update frequency
-- Location: `https://aamblv-technologies.com/sitemap.xml`
+- Location: `https://aamblvtech.in/sitemap.xml`
 
 ### 3. **404.html** (`public/404.html`)
 - Custom error page for non-existent pages
@@ -226,9 +226,9 @@ For projects in portfolio:
 
 ## Important URLs
 
-- **Main Website**: https://aamblv-technologies.com/
-- **Robots.txt**: https://aamblv-technologies.com/robots.txt
-- **Sitemap**: https://aamblv-technologies.com/sitemap.xml
+- **Main Website**: https://aamblvtech.in/
+- **Robots.txt**: https://aamblvtech.in/robots.txt
+- **Sitemap**: https://aamblvtech.in/sitemap.xml
 - **Google Search Console**: https://search.google.com/search-console
 - **Bing Webmaster Tools**: https://www.bing.com/webmasters
 - **Google Analytics**: https://analytics.google.com/

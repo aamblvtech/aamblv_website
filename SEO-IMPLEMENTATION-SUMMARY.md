@@ -212,7 +212,7 @@ A comprehensive SEO infrastructure has been implemented for Aamblv Technologies 
 
 ### Site Structure
 ```
-Domain: https://aamblv-technologies.com
+Domain: https://aamblvtech.in
 ├── / (Home)
 ├── /about (About)
 ├── /services (Services)

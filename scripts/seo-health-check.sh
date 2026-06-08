@@ -2,7 +2,7 @@
 # SEO Health Check Script
 # Run this script to check SEO health of your website
 
-DOMAIN="https://aamblv-technologies.com"
+DOMAIN="https://aamblvtech.in"
 REPORT_FILE="seo-health-report.txt"
 
 echo "========================================" | tee $REPORT_FILE

@@ -1,13 +1,13 @@
 {
   "seoConfiguration": {
-    "domain": "https://aamblv-technologies.com",
+    "domain": "https://aamblvtech.in",
     "businessName": "Aamblv Technologies Pvt Ltd",
     "businessType": "SoftwareCompany",
     "description": "Digital transformation and web development company",
     "country": "IN",
-    "state": "Delhi",
-    "city": "New Delhi",
-    "address": "New Delhi, India",
+    "state": "Telangana",
+    "city": "Hyderabad & Warangal",
+    "address": "Hyderabad & Warangal, Telangana, India",
     "phone": "+91-123-456-7890",
     "email": "info@aamblv.com",
     "socialProfiles": {
@@ -52,7 +52,7 @@
       "contact": {
         "path": "/contact",
         "title": "Contact Us - Get in Touch | Aamblv Technologies",
-        "description": "Ready to start your next project? Contact Aamblv Technologies. We're based in New Delhi, India, and available globally. Call, email, or send us a message.",
+        "description": "Ready to start your next project? Contact Aamblv Technologies. We're based in Hyderabad and Warangal, Telangana, India, and available globally. Call, email, or send us a message.",
         "keywords": ["contact aamblv", "get in touch", "contact form", "business inquiry", "support"],
         "changeFrequency": "monthly",
         "priority": 0.8

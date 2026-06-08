@@ -10,7 +10,7 @@
 
 header('Content-Type: application/xml; charset=utf-8');
 
-$baseUrl = 'https://aamblv-technologies.com';
+$baseUrl = 'https://aamblvtech.in';
 
 // Define pages with their update frequency and priority
 $pages = [

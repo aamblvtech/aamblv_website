@@ -9,7 +9,7 @@ const serviceSchema = {
   "provider": {
     "@type": "Organization",
     "name": "Aamblv Technologies Pvt Ltd",
-    "url": "https://aamblv-technologies.com"
+    "url": "https://aamblvtech.in"
   },
   "areaServed": "IN",
   "hasOfferCatalog": {
@@ -44,7 +44,7 @@ const projectSchema = {
     "@type": "Organization",
     "name": "Aamblv Technologies Pvt Ltd"
   },
-  "image": "https://aamblv-technologies.com/project-image.jpg",
+  "image": "https://aamblvtech.in/project-image.jpg",
   "datePublished": "2024-06-08",
   "keywords": "e-commerce, React, Node.js, Stripe",
   "inLanguage": "en-US",
@@ -59,25 +59,25 @@ const projectSchema = {
 const localBusinessSchema = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
-  "@id": "https://aamblv-technologies.com",
+  "@id": "https://aamblvtech.in",
   "name": "Aamblv Technologies Pvt Ltd",
-  "image": "https://aamblv-technologies.com/logo.png",
+  "image": "https://aamblvtech.in/logo.png",
   "description": "Digital transformation and web development company",
-  "url": "https://aamblv-technologies.com",
+  "url": "https://aamblvtech.in",
   "telephone": "+91-123-456-7890",
   "email": "info@aamblv.com",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "New Delhi",
-    "addressLocality": "New Delhi",
-    "addressRegion": "Delhi",
-    "postalCode": "110001",
+    "streetAddress": "Hyderabad & Warangal, Telangana",
+    "addressLocality": "Hyderabad & Warangal",
+    "addressRegion": "Telangana",
+    "postalCode": "500072",
     "addressCountry": "IN"
   },
   "geo": {
     "@type": "GeoCoordinates",
-    "latitude": 28.6139,
-    "longitude": 77.2090
+    "latitude": 17.3850,
+    "longitude": 78.4867
   },
   "openingHoursSpecification": {
     "@type": "OpeningHoursSpecification",
@@ -134,17 +134,17 @@ const jobPostingSchema = {
     "@type": "Place",
     "address": {
       "@type": "PostalAddress",
-      "addressLocality": "New Delhi",
-      "addressRegion": "Delhi",
-      "postalCode": "110001",
+      "addressLocality": "Hyderabad & Warangal",
+      "addressRegion": "Telangana",
+      "postalCode": "500072",
       "addressCountry": "IN"
     }
   },
   "hiringOrganization": {
     "@type": "Organization",
     "name": "Aamblv Technologies Pvt Ltd",
-    "sameAs": "https://aamblv-technologies.com",
-    "logo": "https://aamblv-technologies.com/logo.png"
+    "sameAs": "https://aamblvtech.in",
+    "logo": "https://aamblvtech.in/logo.png"
   },
   "applicantLocationRequirements": {
     "@type": "Country",
@@ -161,19 +161,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://aamblv-technologies.com"
+      "item": "https://aamblvtech.in"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Services",
-      "item": "https://aamblv-technologies.com/services"
+      "item": "https://aamblvtech.in/services"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Web Development",
-      "item": "https://aamblv-technologies.com/services/web-development"
+      "item": "https://aamblvtech.in/services/web-development"
     }
   ]
 };
@@ -216,7 +216,7 @@ const articleSchema = {
   "@type": "BlogPosting",
   "headline": "How to Optimize Your Website for SEO",
   "description": "A comprehensive guide to SEO optimization",
-  "image": "https://aamblv-technologies.com/article-image.jpg",
+  "image": "https://aamblvtech.in/article-image.jpg",
   "datePublished": "2024-06-08",
   "dateModified": "2024-06-08",
   "author": {
@@ -228,7 +228,7 @@ const articleSchema = {
     "name": "Aamblv Technologies",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://aamblv-technologies.com/logo.png"
+      "url": "https://aamblvtech.in/logo.png"
     }
   },
   "articleBody": "Article content goes here..."
@@ -246,12 +246,12 @@ const eventSchema = {
   "eventStatus": "EventScheduled",
   "location": {
     "@type": "VirtualLocation",
-    "url": "https://aamblv-technologies.com/webinar"
+    "url": "https://aamblvtech.in/webinar"
   },
   "organizer": {
     "@type": "Organization",
     "name": "Aamblv Technologies Pvt Ltd",
-    "url": "https://aamblv-technologies.com"
+    "url": "https://aamblvtech.in"
   }
 };
 

@@ -45,4 +45,4 @@ User-agent: SemrushBot
 Disallow: /
 
 # Sitemap location
-Sitemap: https://aamblv-technologies.com/sitemap.xml
+Sitemap: https://aamblvtech.in/sitemap.xml
