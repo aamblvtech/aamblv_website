@@ -81,7 +81,7 @@ export default function Portfolio() {
           Nice Computers
         </div>
         <div class="p-8">
-          <h3 class="text-2xl font-bold mb-3">AI Analytics Platform</h3>
+          <h3 class="text-2xl font-bold mb-3">Services Provided</h3>
           <p class="text-gray-600 mb-4">
             Business intelligence platform with machine learning models for predictive analytics and data visualization.
           </p>
