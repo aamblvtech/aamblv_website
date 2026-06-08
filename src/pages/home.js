@@ -2,9 +2,13 @@ export default function Home() {
   return `
 
 <!-- HERO -->
-<section class="min-h-[75vh] flex items-center bg-gradient-to-br from-blue-50 to-white">
+<section class="min-h-[75vh] flex items-center bg-linear-to-br from-blue-50 via-blue-100/30 to-indigo-50 relative overflow-hidden">
 
-<div class="max-w-7xl mx-auto px-6 py-24">
+<!-- Decorative shapes -->
+<div class="absolute top-0 right-0 w-96 h-96 bg-blue-200/20 rounded-full blur-3xl"></div>
+<div class="absolute bottom-0 left-0 w-80 h-80 bg-indigo-200/20 rounded-full blur-3xl"></div>
+
+<div class="max-w-7xl mx-auto px-6 py-24 relative z-10">
 
 <div class="grid lg:grid-cols-2 gap-16 items-center">
 
