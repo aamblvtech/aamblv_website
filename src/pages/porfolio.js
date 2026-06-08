@@ -21,12 +21,12 @@ export default function Portfolio() {
       <!-- Project 1 -->
       <div class="rounded-2xl overflow-hidden border border-gray-200 hover:shadow-2xl transition-shadow">
         <div class="h-64 bg-gradient-to-br from-blue-400 to-blue-600 flex items-center justify-center text-white text-4xl font-black">
-          E-Commerce
+          SancHaroO
         </div>
         <div class="p-8">
-          <h3 class="text-2xl font-bold mb-3">E-Commerce Platform</h3>
+          <h3 class="text-2xl font-bold mb-3">SancHaroO Platform</h3>
           <p class="text-gray-600 mb-4">
-            Full-featured e-commerce platform with payment integration, inventory management, and analytics dashboard.
+            Full-featured SancHaroO is a smart bike, auto, and cab booking platform that offers affordable rides with zero commission for captains. Drivers pay only ₹30 per day and enjoy unlimited ride opportunities, helping them maximize earnings while providing reliable transportation to customers.
           </p>
           <div class="flex flex-wrap gap-2 mb-4">
             <span class="bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-sm font-medium">React</span>
@@ -40,12 +40,12 @@ export default function Portfolio() {
       <!-- Project 2 -->
       <div class="rounded-2xl overflow-hidden border border-gray-200 hover:shadow-2xl transition-shadow">
         <div class="h-64 bg-gradient-to-br from-purple-400 to-purple-600 flex items-center justify-center text-white text-4xl font-black">
-          SaaS
+          Sharada High School
         </div>
         <div class="p-8">
-          <h3 class="text-2xl font-bold mb-3">SaaS Management Tool</h3>
+          <h3 class="text-2xl font-bold mb-3">About Project Sharada High School</h3>
           <p class="text-gray-600 mb-4">
-            Collaborative project management platform with real-time updates, team collaboration, and reporting features.
+           Sharada High School Website is a modern, responsive school website developed to provide students, parents, and visitors with easy access to information about academics, admissions, facilities, events, and school activities.
           </p>
           <div class="flex flex-wrap gap-2 mb-4">
             <span class="bg-purple-100 text-purple-700 px-3 py-1 rounded-full text-sm font-medium">Vue.js</span>
@@ -59,12 +59,12 @@ export default function Portfolio() {
       <!-- Project 3 -->
       <div class="rounded-2xl overflow-hidden border border-gray-200 hover:shadow-2xl transition-shadow">
         <div class="h-64 bg-gradient-to-br from-green-400 to-green-600 flex items-center justify-center text-white text-4xl font-black">
-          Mobile
+          PRP.925
         </div>
         <div class="p-8">
-          <h3 class="text-2xl font-bold mb-3">Fitness Tracking App</h3>
+          <h3 class="text-2xl font-bold mb-3">PRP(Park at Right place)</h3>
           <p class="text-gray-600 mb-4">
-            Native iOS and Android fitness application with wearable integration, workout tracking, and social features.
+            PRP925 is a smart safety platform that uses secure QR-enabled tags to help vehicle owners protect their vehicles, verify ownership, and connect responsibly without sharing personal information.
           </p>
           <div class="flex flex-wrap gap-2 mb-4">
             <span class="bg-green-100 text-green-700 px-3 py-1 rounded-full text-sm font-medium">React Native</span>
@@ -78,7 +78,7 @@ export default function Portfolio() {
       <!-- Project 4 -->
       <div class="rounded-2xl overflow-hidden border border-gray-200 hover:shadow-2xl transition-shadow">
         <div class="h-64 bg-gradient-to-br from-orange-400 to-orange-600 flex items-center justify-center text-white text-4xl font-black">
-          AI
+          Nice Computers
         </div>
         <div class="p-8">
           <h3 class="text-2xl font-bold mb-3">AI Analytics Platform</h3>

@@ -18,18 +18,18 @@ export default function Home() {
 <div>
 
 <span class="inline-block bg-blue-100 text-blue-700 px-4 py-2 rounded-full mb-6">
-Digital Transformation Experts
+Aamblv Technologies Pvt Ltd
 </span>
 
 <h1 class="text-5xl lg:text-7xl font-black leading-tight">
 
-Building
+TRANSFORMING
 
 <span class="text-blue-600">
-Future-Ready
+IDEAS-INTO
 </span>
 
-Digital Experiences
+Digital REALITY
 
 </h1>
 
