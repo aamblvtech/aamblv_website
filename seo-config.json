@@ -1,0 +1,106 @@
+{
+  "seoConfiguration": {
+    "domain": "https://aamblv-technologies.com",
+    "businessName": "Aamblv Technologies Pvt Ltd",
+    "businessType": "SoftwareCompany",
+    "description": "Digital transformation and web development company",
+    "country": "IN",
+    "state": "Delhi",
+    "city": "New Delhi",
+    "address": "New Delhi, India",
+    "phone": "+91-123-456-7890",
+    "email": "info@aamblv.com",
+    "socialProfiles": {
+      "facebook": "https://www.facebook.com/aamblvtech",
+      "twitter": "https://www.twitter.com/aamblvtech",
+      "linkedin": "https://www.linkedin.com/company/aamblvtech",
+      "github": "https://github.com/aamblvtech"
+    },
+    "pages": {
+      "home": {
+        "path": "/",
+        "title": "Aamblv Technologies - Digital Transformation & Web Development",
+        "description": "Transform your business with cutting-edge digital solutions. Web development, mobile apps, cloud services, and AI-powered platforms by Aamblv Technologies.",
+        "keywords": ["web development", "mobile apps", "digital transformation", "software solutions", "cloud services", "India"],
+        "changeFrequency": "weekly",
+        "priority": 1.0
+      },
+      "about": {
+        "path": "/about",
+        "title": "About Aamblv Technologies - Our Team & Mission",
+        "description": "Learn about Aamblv Technologies, our mission to transform businesses through innovation, our talented team, and our commitment to digital excellence.",
+        "keywords": ["about aamblv", "digital transformation company", "web development team", "software company India"],
+        "changeFrequency": "monthly",
+        "priority": 0.9
+      },
+      "services": {
+        "path": "/services",
+        "title": "Our Services - Web & Mobile Development | Aamblv Technologies",
+        "description": "Explore our comprehensive digital services: web development, mobile apps, cloud solutions, AI/ML, UI/UX design, and more. Custom solutions for your business.",
+        "keywords": ["web development services", "mobile app development", "cloud services", "UI/UX design", "AI/ML solutions", "software development"],
+        "changeFrequency": "monthly",
+        "priority": 0.9
+      },
+      "portfolio": {
+        "path": "/portfolio",
+        "title": "Our Portfolio - Successful Projects | Aamblv Technologies",
+        "description": "View our portfolio of successful projects across e-commerce, SaaS, mobile apps, and more. See how we've helped businesses achieve their goals.",
+        "keywords": ["portfolio", "projects", "case studies", "web applications", "mobile apps", "project showcase"],
+        "changeFrequency": "biweekly",
+        "priority": 0.8
+      },
+      "contact": {
+        "path": "/contact",
+        "title": "Contact Us - Get in Touch | Aamblv Technologies",
+        "description": "Ready to start your next project? Contact Aamblv Technologies. We're based in New Delhi, India, and available globally. Call, email, or send us a message.",
+        "keywords": ["contact aamblv", "get in touch", "contact form", "business inquiry", "support"],
+        "changeFrequency": "monthly",
+        "priority": 0.8
+      },
+      "careers": {
+        "path": "/careers",
+        "title": "Careers - Join Our Team | Aamblv Technologies",
+        "description": "Join Aamblv Technologies and be part of a talented team transforming the digital landscape. Explore career opportunities in web development, design, and more.",
+        "keywords": ["careers", "jobs", "hiring", "web developer jobs", "design jobs", "tech careers India"],
+        "changeFrequency": "weekly",
+        "priority": 0.7
+      }
+    },
+    "imageOptimization": {
+      "formats": ["WebP", "PNG", "JPG"],
+      "sizes": {
+        "thumbnail": "200x200",
+        "medium": "400x400",
+        "large": "800x800",
+        "xlarge": "1200x1200"
+      },
+      "compression": {
+        "quality": 85,
+        "removeMetadata": true
+      }
+    },
+    "performance": {
+      "targetLCP": 2500,
+      "targetFID": 100,
+      "targetCLS": 0.1,
+      "targetTTFB": 600
+    },
+    "analytics": {
+      "googleAnalyticsId": "G-XXXXXXXXXX",
+      "hotjarId": "XXXXXXXXX",
+      "trackingEvents": [
+        "page_view",
+        "contact_form_submit",
+        "service_click",
+        "project_view",
+        "job_apply"
+      ]
+    },
+    "security": {
+      "enableHTTPS": true,
+      "enableCSP": true,
+      "enableXSSProtection": true,
+      "enableFrameOptions": true
+    }
+  }
+}

@@ -44,6 +44,12 @@ function renderApp() {
     ${Footer()}
   `;
 
+  // Update SEO meta tags for the current page
+  if (typeof updatePageSEO === 'function') {
+    const pageName = getPageNameForSEO(path);
+    updatePageSEO(pageName);
+  }
+
   // Add click listeners to all links
   document.querySelectorAll("a[href^='/']").forEach((link) => {
     link.addEventListener("click", (e) => {
@@ -54,6 +60,19 @@ function renderApp() {
       window.scrollTo(0, 0);
     });
   });
+}
+
+// Helper function to get page name for SEO from path
+function getPageNameForSEO(path) {
+  const normalizedPath = path.toLowerCase().replace(/^\//, "");
+  
+  if (normalizedPath.includes("about")) return "about";
+  if (normalizedPath.includes("services")) return "services";
+  if (normalizedPath.includes("portfolio")) return "portfolio";
+  if (normalizedPath.includes("careers")) return "careers";
+  if (normalizedPath.includes("contact")) return "contact";
+  
+  return "home";
 }
 
 // Initial render

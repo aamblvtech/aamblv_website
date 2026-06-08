@@ -1,4 +1,7 @@
-export default function Home() {
+export default function Home() { 
+  // Import images
+  const teamMeetingImg = new URL('../assets/team_meeting.jpg', import.meta.url).href;
+
   return `
 
 <!-- HERO -->
@@ -55,7 +58,7 @@ Explore Services
 <div>
 
 <img 
-src="src/assets/team_meeting.jpg"
+src="${teamMeetingImg}"
 class="rounded-3xl shadow-2xl"
 >
 
@@ -224,24 +227,46 @@ Featured Work
 
 <div class="grid md:grid-cols-3 gap-8 mt-16">
 
-${[1, 2, 3].map(i => `
+${[
+      {
+        title: "SancHaroo",
+        url: "sancharoo.in",
+        description: "Innovative digital solutions platform"
+      },
+      {
+        title: "PRP.925",
+        url: "prp925tech.in",
+        description: "Technology services and consulting"
+      },
+      {
+        title: "Sharada High School",
+        url: "sharada.in",
+        description: "Educational institution digital presence"
+      }
+    ].map(project => `
 
-<div class="bg-white rounded-3xl overflow-hidden shadow-lg">
+<div class="bg-white rounded-3xl overflow-hidden shadow-lg hover:-translate-y-2 transition">
 
-<img
-src="https://picsum.photos/600/400?random=${i}"
-class="w-full"
->
+<div class="h-48 bg-linear-to-br from-blue-400 to-indigo-600 flex items-center justify-center">
+  <i class="fa-solid fa-globe text-white text-4xl"></i>
+</div>
 
 <div class="p-6">
 
 <h3 class="text-xl font-bold">
-Project ${i}
+${project.title}
 </h3>
 
 <p class="text-gray-600 mt-3">
-Enterprise software solution.
+${project.description}
 </p>
+
+<a
+href="https://${project.url}"
+target="_blank"
+class="text-blue-600 mt-6 inline-block">
+Visit Site →
+</a>
 
 </div>
 

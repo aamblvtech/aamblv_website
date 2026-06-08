@@ -1,4 +1,7 @@
 export default function Navbar() {
+  // Import logo
+  const logoImg = new URL('../assets/logo.png', import.meta.url).href;
+
   return `
 
 <header
@@ -49,7 +52,7 @@ justify-center
 text-white
 font-bold
 ">
-<img src="src/assets/logo.png" alt="AAMBLV" class="w-full h-full object-cover" />
+<img src="${logoImg}" alt="AAMBLV" class="w-full h-full object-cover" />
 </div>
 
 <div>

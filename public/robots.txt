@@ -1,0 +1,48 @@
+# robots.txt for Aamblv Technologies
+# Directives for search engine crawlers
+
+# Default - Allow all crawlers
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+Disallow: /api/
+Disallow: /.git/
+Disallow: /node_modules/
+Disallow: /src/
+Disallow: /build/
+Disallow: /dist/
+
+# Crawl delay (in seconds)
+Crawl-delay: 1
+
+# Request rate limit (optional)
+# Request-rate: 1/10
+
+# Specific crawler directives
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+# Disallow bad bots
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+# Sitemap location
+Sitemap: https://aamblv-technologies.com/sitemap.xml

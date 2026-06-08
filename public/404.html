@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 - Page Not Found | Aamblv Technologies</title>
+    <meta name="description" content="The page you're looking for doesn't exist. Let's get you back on track with Aamblv Technologies.">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .container {
+            text-align: center;
+            background: white;
+            padding: 60px 40px;
+            border-radius: 10px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            max-width: 600px;
+        }
+
+        .error-code {
+            font-size: 120px;
+            font-weight: 900;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 36px;
+            color: #333;
+            margin-bottom: 15px;
+        }
+
+        p {
+            font-size: 18px;
+            color: #666;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+
+        .buttons {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        a {
+            display: inline-block;
+            padding: 12px 30px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .btn-home {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+
+        .btn-home:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(102, 126, 234, 0.4);
+        }
+
+        .btn-contact {
+            border: 2px solid #667eea;
+            color: #667eea;
+        }
+
+        .btn-contact:hover {
+            background: #f0f5ff;
+        }
+
+        .search-form {
+            margin-top: 40px;
+            padding-top: 40px;
+            border-top: 1px solid #eee;
+        }
+
+        .search-form h3 {
+            margin-bottom: 15px;
+            color: #333;
+        }
+
+        .search-form input {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #ddd;
+            border-radius: 5px;
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+
+        .search-form input:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 40px 20px;
+            }
+
+            .error-code {
+                font-size: 80px;
+            }
+
+            h1 {
+                font-size: 28px;
+            }
+
+            p {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="error-code">404</div>
+        <h1>Page Not Found</h1>
+        <p>Sorry, the page you're looking for doesn't exist. It may have been moved or deleted. Let's get you back on track!</p>
+
+        <div class="buttons">
+            <a href="/" class="btn-home">← Back to Home</a>
+            <a href="/services" class="btn-contact">View Services</a>
+        </div>
+
+        <div class="search-form">
+            <h3>Can't find what you're looking for?</h3>
+            <p style="margin-bottom: 15px; font-size: 14px;">Contact our team for assistance</p>
+            <a href="/contact" class="btn-home" style="display: inline-block;">Get in Touch</a>
+        </div>
+    </div>
+
+    <!-- Analytics tracking for 404 errors -->
+    <script>
+        // Track 404 errors for analytics
+        if (typeof gtag !== 'undefined') {
+            gtag('event', 'page_not_found', {
+                'page_path': window.location.pathname,
+                'page_title': document.title
+            });
+        }
+    </script>
+</body>
+</html>
