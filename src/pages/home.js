@@ -1,0 +1,361 @@
+export default function Home() {
+  return `
+
+<!-- HERO -->
+<section class="min-h-[75vh] flex items-center bg-gradient-to-br from-blue-50 to-white">
+
+<div class="max-w-7xl mx-auto px-6 py-24">
+
+<div class="grid lg:grid-cols-2 gap-16 items-center">
+
+<div>
+
+<span class="inline-block bg-blue-100 text-blue-700 px-4 py-2 rounded-full mb-6">
+Digital Transformation Experts
+</span>
+
+<h1 class="text-5xl lg:text-7xl font-black leading-tight">
+
+Building
+
+<span class="text-blue-600">
+Future-Ready
+</span>
+
+Digital Experiences
+
+</h1>
+
+<p class="mt-8 text-xl text-gray-600 max-w-xl">
+Helping businesses scale through web development,
+mobile applications, cloud solutions, AI automation,
+branding and digital transformation.
+</p>
+
+<div class="flex gap-4 mt-10">
+
+<button
+class="bg-blue-600 text-white px-8 py-4 rounded-xl">
+Start Project
+</button>
+
+<button
+class="border px-8 py-4 rounded-xl">
+Explore Services
+</button>
+
+</div>
+
+</div>
+
+<div>
+
+<img 
+src="src/assets/team_meeting.jpg"
+class="rounded-3xl shadow-2xl"
+>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- TRUSTED -->
+
+<section class="py-10 border-y bg-white">
+
+<div class="max-w-7xl mx-auto px-6">
+
+<div class="grid grid-cols-2 md:grid-cols-6 gap-8 text-center font-semibold text-gray-400">
+
+<div>Google</div>
+<div>Amazon</div>
+<div>Microsoft</div>
+<div>Startups</div>
+<div>Healthcare</div>
+<div>Education</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- SERVICES PREVIEW -->
+
+<section class="py-24">
+
+<div class="max-w-7xl mx-auto px-6">
+
+<div class="text-center">
+
+<h2 class="text-5xl font-black">
+Our Services
+</h2>
+
+<p class="mt-4 text-gray-500">
+Comprehensive digital solutions for modern businesses
+</p>
+
+</div>
+
+<div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-16">
+
+${[
+      {
+        title: "Web Development",
+        icon: "fa-code"
+      },
+      {
+        title: "Mobile Apps",
+        icon: "fa-mobile-screen"
+      },
+      {
+        title: "UI/UX Design",
+        icon: "fa-palette"
+      },
+      {
+        title: "Cloud Solutions",
+        icon: "fa-cloud"
+      },
+      {
+        title: "AI Automation",
+        icon: "fa-brain"
+      },
+      {
+        title: "Digital Marketing",
+        icon: "fa-chart-line"
+      }
+    ].map(service => `
+
+<div class="bg-white p-8 rounded-3xl shadow-lg hover:-translate-y-2 transition">
+
+<i class="fa-solid ${service.icon} text-blue-600 text-4xl"></i>
+
+<h3 class="text-2xl font-bold mt-6">
+${service.title}
+</h3>
+
+<p class="text-gray-600 mt-4">
+Custom solutions tailored for business growth.
+</p>
+
+<a
+href="/services"
+class="text-blue-600 mt-6 inline-block">
+Learn More →
+</a>
+
+</div>
+
+`).join("")}
+
+</div>
+
+<div class="text-center mt-12">
+
+<a
+href="/services"
+class="bg-blue-600 text-white px-8 py-4 rounded-xl inline-block">
+View All Services
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ABOUT PREVIEW -->
+
+<section class="bg-gray-50 py-24">
+
+<div class="max-w-7xl mx-auto px-6">
+
+<div class="grid lg:grid-cols-2 gap-16 items-center">
+
+<img
+src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=1200"
+class="rounded-3xl shadow-xl"
+>
+
+<div>
+
+<h2 class="text-5xl font-black">
+Who We Are
+</h2>
+
+<p class="text-gray-600 mt-8 leading-relaxed">
+Aamblv Technologies Private Limited is a technology
+company focused on helping organizations transform
+ideas into scalable digital products and business solutions.
+</p>
+
+<a
+href="/about"
+class="inline-block mt-8 bg-blue-600 text-white px-8 py-4 rounded-xl">
+Read More
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- PORTFOLIO PREVIEW -->
+
+<section class="py-24">
+
+<div class="max-w-7xl mx-auto px-6">
+
+<div class="text-center">
+
+<h2 class="text-5xl font-black">
+Featured Work
+</h2>
+
+</div>
+
+<div class="grid md:grid-cols-3 gap-8 mt-16">
+
+${[1, 2, 3].map(i => `
+
+<div class="bg-white rounded-3xl overflow-hidden shadow-lg">
+
+<img
+src="https://picsum.photos/600/400?random=${i}"
+class="w-full"
+>
+
+<div class="p-6">
+
+<h3 class="text-xl font-bold">
+Project ${i}
+</h3>
+
+<p class="text-gray-600 mt-3">
+Enterprise software solution.
+</p>
+
+</div>
+
+</div>
+
+`).join("")}
+
+</div>
+
+<div class="text-center mt-12">
+
+<a
+href="/portfolio"
+class="bg-blue-600 text-white px-8 py-4 rounded-xl inline-block">
+View Portfolio
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- WHY CHOOSE US -->
+
+<section class="bg-blue-600 text-white py-24">
+
+<div class="max-w-7xl mx-auto px-6">
+
+<h2 class="text-center text-5xl font-black mb-16">
+Why Choose Us
+</h2>
+
+<div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+
+${[
+      "Expert Team",
+      "Fast Delivery",
+      "Transparent Process",
+      "Long Term Support"
+    ].map(item => `
+
+<div class="bg-white/10 backdrop-blur p-8 rounded-3xl">
+
+<h3 class="font-bold text-xl">
+${item}
+</h3>
+
+</div>
+
+`).join("")}
+
+</div>
+
+</div>
+
+</section>
+
+<!-- STATS -->
+
+<section class="py-24">
+
+<div class="max-w-7xl mx-auto px-6">
+
+<div class="grid grid-cols-2 lg:grid-cols-4 gap-10 text-center">
+
+<div>
+<h3 class="text-5xl font-black text-blue-600">250+</h3>
+<p>Projects</p>
+</div>
+
+<div>
+<h3 class="text-5xl font-black text-blue-600">120+</h3>
+<p>Clients</p>
+</div>
+
+<div>
+<h3 class="text-5xl font-black text-blue-600">15+</h3>
+<p>Countries</p>
+</div>
+
+<div>
+<h3 class="text-5xl font-black text-blue-600">99%</h3>
+<p>Satisfaction</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- CTA -->
+
+<section class="bg-gray-900 text-white py-24">
+
+<div class="max-w-4xl mx-auto text-center px-6">
+
+<h2 class="text-5xl font-black">
+Ready To Build Something Amazing?
+</h2>
+
+<p class="mt-6 text-gray-300">
+Let's discuss your project and create something impactful.
+</p>
+
+<button
+class="mt-10 bg-blue-600 px-8 py-4 rounded-xl">
+Schedule Consultation
+</button>
+
+</div>
+
+</section>
+
+`;
+}
