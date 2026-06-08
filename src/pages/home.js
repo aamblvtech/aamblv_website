@@ -70,10 +70,6 @@ class="rounded-3xl shadow-2xl"
 <div class="max-w-7xl mx-auto px-6">
 
 <div class="grid grid-cols-2 md:grid-cols-6 gap-8 text-center font-semibold text-gray-400">
-
-<div>Google</div>
-<div>Amazon</div>
-<div>Microsoft</div>
 <div>Startups</div>
 <div>Healthcare</div>
 <div>Education</div>
