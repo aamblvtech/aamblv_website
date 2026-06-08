@@ -13,6 +13,13 @@
     RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
     
     # Remove index.html from URLs (for SPA routing)
+    # Ensure sitemap requests are served: prefer static `sitemap.xml`,
+    # or fall back to `sitemap.php` if dynamic generation is used.
+    # This must come before the SPA rewrite rule.
+    RewriteCond %{REQUEST_URI} ^/sitemap\.xml$ [NC]
+    RewriteCond %{DOCUMENT_ROOT}/sitemap.xml !-f
+    RewriteRule ^sitemap\.xml$ sitemap.php [L]
+
     RewriteBase /
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteCond %{REQUEST_FILENAME} !-d
