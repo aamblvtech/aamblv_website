@@ -127,11 +127,12 @@ Contact
 
 <ul class="space-y-2 text-gray-400">
 
-<li>hello@aamblv.com</li>
+<li>aamblvtech@gmail.com</li>
 
-<li>+91 XXXXX XXXXX</li>
+<li>+91 95423 03742</li>
 
-<li>India</li>
+<li>Hunter Rd, beside PADMAVATHI GARDENS,
+Ramannapet, Warangal, India</li>
 
 </ul>
 

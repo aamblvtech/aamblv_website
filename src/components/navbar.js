@@ -6,6 +6,7 @@ export default function Navbar() {
 
 <header
 class="
+relative
 fixed
 top-0
 left-0
@@ -78,10 +79,12 @@ Technologies Pvt Ltd
 
 </a>
 
+<input id="nav-toggle" type="checkbox" class="peer hidden" />
+
 <nav
 class="
 hidden
-md:flex
+lg:flex
 items-center
 gap-8
 font-medium
@@ -110,6 +113,21 @@ Contact
 </a>
 
 </nav>
+
+<label for="nav-toggle" class="lg:hidden flex items-center justify-center w-11 h-11 rounded-xl border border-gray-200 text-gray-700 cursor-pointer">
+  <span class="text-2xl">☰</span>
+</label>
+
+<div class="peer-checked:block hidden absolute inset-x-6 top-[80px] bg-white border border-gray-200 rounded-3xl p-6 shadow-xl lg:hidden">
+  <div class="flex flex-col gap-4 text-base font-medium">
+    <a href="/">Home</a>
+    <a href="/about">About</a>
+    <a href="/services">Services</a>
+    <a href="/portfolio">Portfolio</a>
+    <a href="/careers">Careers</a>
+    <a href="/contact">Contact</a>
+  </div>
+</div>
 
 <div class="flex gap-3">
 

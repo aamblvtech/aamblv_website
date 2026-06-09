@@ -39,7 +39,7 @@ mobile applications, cloud solutions, AI automation,
 branding and digital transformation.
 </p>
 
-<div class="flex gap-4 mt-10">
+<div class="flex flex-col sm:flex-row gap-4 mt-10">
 
 <button
 class="bg-blue-600 text-white px-8 py-4 rounded-xl">
@@ -229,26 +229,29 @@ Featured Work
 
 ${[
       {
-        title: "SancHaroo(Riding App)",
+        title: "SancHaroo(Ride-hailing Platform)",
         url: "sancharoo.in",
-        description: "Innovative digital solutions platform"
+        description: "Innovative digital solutions platform",
+        logo: new URL('../assets/Sancharoo.jpeg', import.meta.url).href
       },
       {
         title: "PRP.925(Smart QR Tag)",
         url: "prp925tech.in",
-        description: "Technology services and consulting"
+        description: "Technology services and consulting",
+        logo: new URL('../assets/Prp.925.jpg', import.meta.url).href
       },
       {
-        title: "Sharada High School",
-        url: "sharada.in",
-        description: "Educational institution digital presence"
+        title: "NICE COMPUTERS",
+        url: "nicecomputers.com",
+        description: "Computing solutions and services",
+        logo: new URL('../assets/NICE_COMPUTER.png', import.meta.url).href
       }
-    ].map(project => `
+    ].map((project, index) => `
 
 <div class="bg-white rounded-3xl overflow-hidden shadow-lg hover:-translate-y-2 transition">
 
-<div class="h-48 bg-linear-to-br from-blue-400 to-indigo-600 flex items-center justify-center">
-  <i class="fa-solid fa-globe text-white text-4xl"></i>
+<div class="h-48 ${index === 0 ? 'bg-gradient-to-br from-blue-400 to-indigo-600' : 'bg-white'} flex items-center justify-center overflow-hidden ${index !== 0 ? 'p-8' : ''}">
+  <img src="${project.logo}" alt="${project.title}" class="${index === 0 ? 'w-full h-full object-cover hover:scale-105' : 'max-h-full max-w-full object-contain hover:scale-110'} transition-transform duration-300">
 </div>
 
 <div class="p-6">

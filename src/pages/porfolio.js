@@ -28,12 +28,8 @@ export default function Portfolio() {
           <p class="text-gray-600 mb-4">
             Full-featured SancHaroO is a smart bike, auto, and cab booking platform that offers affordable rides with zero commission for captains. Drivers pay only ₹30 per day and enjoy unlimited ride opportunities, helping them maximize earnings while providing reliable transportation to customers.
           </p>
-          <div class="flex flex-wrap gap-2 mb-4">
-            <span class="bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-sm font-medium">React</span>
-            <span class="bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-sm font-medium">Node.js</span>
-            <span class="bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-sm font-medium">Stripe</span>
-          </div>
-          <p class="text-sm text-gray-500 mb-4">↑ 45% sales increase for client</p>
+         
+          <p class="text-sm text-gray-500 mb-4"></p>
         </div>
       </div>
 
@@ -47,31 +43,23 @@ export default function Portfolio() {
           <p class="text-gray-600 mb-4">
            Sharada High School Website is a modern, responsive school website developed to provide students, parents, and visitors with easy access to information about academics, admissions, facilities, events, and school activities.
           </p>
-          <div class="flex flex-wrap gap-2 mb-4">
-            <span class="bg-purple-100 text-purple-700 px-3 py-1 rounded-full text-sm font-medium">Vue.js</span>
-            <span class="bg-purple-100 text-purple-700 px-3 py-1 rounded-full text-sm font-medium">Firebase</span>
-            <span class="bg-purple-100 text-purple-700 px-3 py-1 rounded-full text-sm font-medium">Websockets</span>
-          </div>
-          <p class="text-sm text-gray-500 mb-4">500+ active users</p>
+          
+         
         </div>
       </div>
 
       <!-- Project 3 -->
       <div class="rounded-2xl overflow-hidden border border-gray-200 hover:shadow-2xl transition-shadow">
         <div class="h-64 bg-gradient-to-br from-green-400 to-green-600 flex items-center justify-center text-white text-4xl font-black">
-          PRP.925
+          PRP.925(Smart QR Tag)
         </div>
         <div class="p-8">
-          <h3 class="text-2xl font-bold mb-3">PRP(Park at Right place)</h3>
+          <h3 class="text-2xl font-bold mb-3">PRP.925(Smart QR Tag)</h3>
           <p class="text-gray-600 mb-4">
             PRP925 is a smart safety platform that uses secure QR-enabled tags to help vehicle owners protect their vehicles, verify ownership, and connect responsibly without sharing personal information.
           </p>
-          <div class="flex flex-wrap gap-2 mb-4">
-            <span class="bg-green-100 text-green-700 px-3 py-1 rounded-full text-sm font-medium">React Native</span>
-            <span class="bg-green-100 text-green-700 px-3 py-1 rounded-full text-sm font-medium">AWS</span>
-            <span class="bg-green-100 text-green-700 px-3 py-1 rounded-full text-sm font-medium">Health Kit</span>
-          </div>
-          <p class="text-sm text-gray-500 mb-4">100K+ downloads</p>
+          
+          <p class="text-sm text-gray-500 mb-4">50K+ Users</p>
         </div>
       </div>
 
@@ -83,56 +71,11 @@ export default function Portfolio() {
         <div class="p-8">
           <h3 class="text-2xl font-bold mb-3">Services Provided</h3>
           <p class="text-gray-600 mb-4">
-            Business intelligence platform with machine learning models for predictive analytics and data visualization.
+            Discover Exclusive Deals on a
+Variety of Products Provides Best Sales and Services.
           </p>
-          <div class="flex flex-wrap gap-2 mb-4">
-            <span class="bg-orange-100 text-orange-700 px-3 py-1 rounded-full text-sm font-medium">Python</span>
-            <span class="bg-orange-100 text-orange-700 px-3 py-1 rounded-full text-sm font-medium">TensorFlow</span>
-            <span class="bg-orange-100 text-orange-700 px-3 py-1 rounded-full text-sm font-medium">Tableau</span>
-          </div>
-          <p class="text-sm text-gray-500 mb-4">↑ 60% efficiency improvement</p>
         </div>
       </div>
-
-      <!-- Project 5 -->
-      <div class="rounded-2xl overflow-hidden border border-gray-200 hover:shadow-2xl transition-shadow">
-        <div class="h-64 bg-gradient-to-br from-pink-400 to-pink-600 flex items-center justify-center text-white text-4xl font-black">
-          Design
-        </div>
-        <div class="p-8">
-          <h3 class="text-2xl font-bold mb-3">Corporate Branding</h3>
-          <p class="text-gray-600 mb-4">
-            Complete branding overhaul including logo design, brand guidelines, and digital asset creation for enterprise client.
-          </p>
-          <div class="flex flex-wrap gap-2 mb-4">
-            <span class="bg-pink-100 text-pink-700 px-3 py-1 rounded-full text-sm font-medium">Design</span>
-            <span class="bg-pink-100 text-pink-700 px-3 py-1 rounded-full text-sm font-medium">Branding</span>
-            <span class="bg-pink-100 text-pink-700 px-3 py-1 rounded-full text-sm font-medium">Strategy</span>
-          </div>
-          <p class="text-sm text-gray-500 mb-4">Award-winning design</p>
-        </div>
-      </div>
-
-      <!-- Project 6 -->
-      <div class="rounded-2xl overflow-hidden border border-gray-200 hover:shadow-2xl transition-shadow">
-        <div class="h-64 bg-gradient-to-br from-teal-400 to-teal-600 flex items-center justify-center text-white text-4xl font-black">
-          Cloud
-        </div>
-        <div class="p-8">
-          <h3 class="text-2xl font-bold mb-3">Cloud Migration</h3>
-          <p class="text-gray-600 mb-4">
-            Successful migration of legacy system to AWS cloud with zero downtime, improved scalability and 40% cost reduction.
-          </p>
-          <div class="flex flex-wrap gap-2 mb-4">
-            <span class="bg-teal-100 text-teal-700 px-3 py-1 rounded-full text-sm font-medium">AWS</span>
-            <span class="bg-teal-100 text-teal-700 px-3 py-1 rounded-full text-sm font-medium">Docker</span>
-            <span class="bg-teal-100 text-teal-700 px-3 py-1 rounded-full text-sm font-medium">Kubernetes</span>
-          </div>
-          <p class="text-sm text-gray-500 mb-4">↓ 40% cost savings</p>
-        </div>
-      </div>
-
-    </div>
   </div>
 </section>
 
