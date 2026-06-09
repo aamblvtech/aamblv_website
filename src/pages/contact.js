@@ -17,7 +17,7 @@ export default function Contact() {
 
     <!-- Rich Contact Content (form removed) -->
     <div class="max-w-6xl mx-auto">
-      <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 items-start mb-12">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start mb-12">
 
         <!-- Left: Contact Details & CTA -->
         <div class="p-8 rounded-2xl bg-white shadow-md">
@@ -48,37 +48,6 @@ export default function Contact() {
           </div>
         </div>
 
-        <!-- Middle: Team Contacts -->
-        <div class="p-8 rounded-2xl bg-white shadow-md">
-          <h2 class="text-2xl font-bold mb-4">Meet Our Team</h2>
-          <p class="text-gray-600 mb-6">Reach the right person for your project — friendly experts ready to help.</p>
-
-          <div class="grid gap-4">
-            <div class="flex items-center gap-4">
-              <img src="${new URL('../assets/arun.jpeg', import.meta.url).href}" class="w-12 h-12 rounded-full object-cover" alt="Arun">
-              <div>
-                <div class="font-semibold">Arun - Head of Sales</div>
-                <a href="tel:+919876543210" class="text-blue-600 text-sm">+91 98765 43210</a>
-              </div>
-            </div>
-
-            <div class="flex items-center gap-4">
-              <img src="${new URL('../assets/deepak.jpeg', import.meta.url).href}" class="w-12 h-12 rounded-full object-cover" alt="Deepak">
-              <div>
-                <div class="font-semibold">Deepak - Project Manager</div>
-                <a href="mailto:deepak@aamblv.com" class="text-blue-600 text-sm">deepak@aamblv.com</a>
-              </div>
-            </div>
-
-            <div class="flex items-center gap-4">
-              <img src="${new URL('../assets/nawaz.jpeg', import.meta.url).href}" class="w-12 h-12 rounded-full object-cover" alt="Nawaz">
-              <div>
-                <div class="font-semibold">Nawaz - Technical Lead</div>
-                <a href="mailto:nawaz@aamblv.com" class="text-blue-600 text-sm">nawaz@aamblv.com</a>
-              </div>
-            </div>
-          </div>
-        </div>
 
         <!-- Right: Map / Location visual -->
         <div class="p-0 rounded-2xl overflow-hidden bg-white shadow-md">
