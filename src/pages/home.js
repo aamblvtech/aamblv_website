@@ -229,12 +229,12 @@ Featured Work
 
 ${[
       {
-        title: "SancHaroo",
+        title: "SancHaroo(Riding App)",
         url: "sancharoo.in",
         description: "Innovative digital solutions platform"
       },
       {
-        title: "PRP.925",
+        title: "PRP.925(Smart QR Tag)",
         url: "prp925tech.in",
         description: "Technology services and consulting"
       },
