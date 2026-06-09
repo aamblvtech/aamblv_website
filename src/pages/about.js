@@ -108,7 +108,7 @@ export default function About() {
         <!-- Team Lead -->
         <div class="text-center">
           <div class="relative mb-6 group">
-            <div class="w-40 md:w-56 mx-auto aspect-[2/3] rounded-2xl bg-gradient-to-br from-purple-400 to-purple-600 flex items-center justify-center overflow-hidden">
+            <div class="w-40 md:w-70 mx-auto aspect-[2/3] rounded-2xl bg-gradient-to-br from-purple-400 to-purple-600 flex items-center justify-center overflow-hidden">
               <img src="${vishnuImg}" alt="Vishnu Tekumatla" class="w-full h-full object-cover" />
             </div>
             <div class="absolute top-3 right-3 bg-purple-600 text-white px-4 py-1 rounded-full text-xs font-bold">LEAD</div>
@@ -121,7 +121,7 @@ export default function About() {
         <!-- Web Developer 1 -->
         <div class="text-center">
           <div class="relative mb-6 group">
-            <div class="w-40 md:w-56 mx-auto aspect-[2/3] rounded-2xl bg-gradient-to-br from-indigo-400 to-indigo-600 flex items-center justify-center overflow-hidden">
+            <div class="w-40 md:w-70 mx-auto aspect-[2/3] rounded-2xl bg-gradient-to-br from-indigo-400 to-indigo-600 flex items-center justify-center overflow-hidden">
               <img src="${hemanthImg}" alt="Hemanth Billa" class="w-full h-full object-cover" />
             </div>
             <div class="absolute top-3 right-3 bg-indigo-600 text-white px-4 py-1 rounded-full text-xs font-bold">DEV</div>
@@ -134,7 +134,7 @@ export default function About() {
         <!-- Web Developer 2 -->
         <div class="text-center">
           <div class="relative mb-6 group">
-            <div class="w-40 md:w-56 mx-auto aspect-[2/3] rounded-2xl bg-gradient-to-br from-green-400 to-green-600 flex items-center justify-center overflow-hidden">
+            <div class="w-40 md:w-70 mx-auto aspect-[2/3] rounded-2xl bg-gradient-to-br from-green-400 to-green-600 flex items-center justify-center overflow-hidden">
               <img src="${nawazImg}" alt="Shah Nawaz" class="w-full h-full object-cover" />
             </div>
             <div class="absolute top-3 right-3 bg-green-600 text-white px-4 py-1 rounded-full text-xs font-bold">DEV</div>
@@ -147,7 +147,7 @@ export default function About() {
                 <!-- Web Developer 2 -->
         <div class="text-center">
           <div class="relative mb-6 group">
-            <div class="w-40 md:w-56 mx-auto aspect-[2/3] rounded-2xl bg-gradient-to-br from-green-400 to-green-600 flex items-center justify-center overflow-hidden">
+            <div class="w-40 md:w-70 mx-auto aspect-[2/3] rounded-2xl bg-gradient-to-br from-green-400 to-green-600 flex items-center justify-center overflow-hidden">
               <img src="${sairishiImg}" alt="Sairishi Neelam" class="w-full h-full object-cover" />
             </div>
             <div class="absolute top-3 right-3 bg-green-600 text-white px-4 py-1 rounded-full text-xs font-bold">DEV</div>
@@ -160,7 +160,7 @@ export default function About() {
                 <!-- Web Developer 2 -->
         <div class="text-center">
           <div class="relative mb-6 group">
-            <div class="w-40 md:w-56 mx-auto aspect-[2/3] rounded-2xl bg-gradient-to-br from-green-400 to-green-600 flex items-center justify-center overflow-hidden">
+            <div class="w-40 md:w-70 mx-auto aspect-[2/3] rounded-2xl bg-gradient-to-br from-green-400 to-green-600 flex items-center justify-center overflow-hidden">
               <img src="${chandhanaImg}" alt="Chandana" class="w-full h-full object-cover" />
             </div>
             <div class="absolute top-3 right-3 bg-green-600 text-white px-4 py-1 rounded-full text-xs font-bold">HR</div>
@@ -172,7 +172,7 @@ export default function About() {
 
           <div class="text-center">
           <div class="relative mb-6 group">
-            <div class="w-40 md:w-56 mx-auto aspect-[2/3] rounded-2xl bg-gradient-to-br from-green-400 to-green-600 flex items-center justify-center overflow-hidden">
+            <div class="w-40 md:w-70 mx-auto aspect-[2/3] rounded-2xl bg-gradient-to-br from-green-400 to-green-600 flex items-center justify-center overflow-hidden">
               <img src="${nageshwariImg}" alt="Nageshwari" class="w-full h-full object-cover" />
             </div>
             <div class="absolute top-3 right-3 bg-green-600 text-white px-4 py-1 rounded-full text-xs font-bold">HR</div>
@@ -188,7 +188,6 @@ export default function About() {
 
     <!-- Junior Developers Section -->
     <div>
-      <h3 class="text-3xl font-bold text-center mb-12 text-gray-700">Junior Development Team</h3>
       <div class="grid md:grid-cols-4 gap-8">
         
         <!-- Junior Developer 1 -->
@@ -280,7 +279,7 @@ export default function About() {
   <div class="max-w-5xl mx-auto">
     <div class="grid md:grid-cols-4 gap-8">
       <div class="text-center">
-        <div class="text-5xl font-black text-blue-600 mb-2">150+</div>
+        <div class="text-5xl font-black text-blue-600 mb-2">120+</div>
         <p class="text-gray-600 font-medium">Projects Delivered</p>
       </div>
       <div class="text-center">
@@ -288,11 +287,11 @@ export default function About() {
         <p class="text-gray-600 font-medium">Client Satisfaction</p>
       </div>
       <div class="text-center">
-        <div class="text-5xl font-black text-blue-600 mb-2">50+</div>
+        <div class="text-5xl font-black text-blue-600 mb-2">15+</div>
         <p class="text-gray-600 font-medium">Team Members</p>
       </div>
       <div class="text-center">
-        <div class="text-5xl font-black text-blue-600 mb-2">10+</div>
+        <div class="text-5xl font-black text-blue-600 mb-2">5+</div>
         <p class="text-gray-600 font-medium">Years in Industry</p>
       </div>
     </div>

@@ -39,7 +39,7 @@ export default function Contact() {
             </div>
             <div>
               <h4 class="font-semibold">Business Hours</h4>
-              <p class="text-gray-600">Mon - Fri: 9:30 AM — 6:30 PM<br>Sat: 10:00 AM — 2:00 PM</p>
+              <p class="text-gray-600">Mon - Fri: 10:00 AM — 6:00 PM<br>Sat: 10:00 AM — 5:00 PM</p>
             </div>
           </div>
 
@@ -67,7 +67,7 @@ export default function Contact() {
         <div class="grid md:grid-cols-3 gap-6 text-gray-600">
           <div>
             <h4 class="font-semibold mb-2">Typical Project Length</h4>
-            <p>4–12 weeks for MVPs; 3–9 months for full products.</p>
+            <p>4–8 weeks for MVPs; 4–6 months for full products.</p>
           </div>
           <div>
             <h4 class="font-semibold mb-2">Pricing Model</h4>

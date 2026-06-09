@@ -21,7 +21,7 @@ export default function Home() {
 Aamblv Technologies Pvt Ltd
 </span>
 
-<h1 class="text-5xl lg:text-7xl font-black leading-tight">
+<h1 class="text-5xl lg:text-5xl font-black leading-tight">
 
 TRANSFORMING
 
@@ -76,14 +76,64 @@ class="rounded-3xl shadow-2xl"
 
 <div class="max-w-7xl mx-auto px-6">
 
-<div class="grid grid-cols-2 md:grid-cols-6 gap-8 text-center font-semibold text-gray-400">
-<div>Startups</div>
-<div>Healthcare</div>
-<div>Education</div>
+<div class="flex flex-col gap-8">
+  <div>
+    <p class="text-sm uppercase tracking-[0.3em] text-blue-600 font-semibold">Trusted by</p>
+    <h2 class="text-4xl font-black mt-4">Industries & solutions we build for</h2>
+  </div>
 
+  <div class="relative overflow-hidden rounded-3xl bg-slate-50 border border-slate-200">
+    <div class="absolute inset-y-0 left-0 w-20 bg-gradient-to-r from-white to-white/0 pointer-events-none"></div>
+    <div class="absolute inset-y-0 right-0 w-20 bg-gradient-to-l from-white to-white/0 pointer-events-none"></div>
+
+    <div class="whitespace-nowrap py-8" style="animation: marquee 28s linear infinite;">
+      ${[
+        'Startups',
+        'Healthcare',
+        'Education',
+        'E-commerce',
+        'SaaS',
+        'AI Automation',
+        'Mobile Apps',
+        'Cloud Solutions',
+        'Digital Marketing',
+        'FinTech',
+        'Logistics',
+        'Retail'
+      ].concat([
+        'Startups',
+        'Healthcare',
+        'Education',
+        'E-commerce',
+        'SaaS',
+        'AI Automation',
+        'Mobile Apps',
+        'Cloud Solutions',
+        'Digital Marketing',
+        'FinTech',
+        'Logistics',
+        'Retail'
+      ]).map(item => `
+        <div class="inline-flex items-center justify-center min-w-[220px] mr-6 rounded-3xl border border-slate-200 bg-white px-8 py-6 shadow-sm">
+          <span class="text-lg font-semibold text-slate-700">${item}</span>
+        </div>
+      `).join('')}
+    </div>
+  </div>
+
+  <p class="text-gray-500 max-w-3xl">
+    We partner with startups, healthcare providers, educational platforms, SaaS companies, and digital-first brands to deliver web apps, mobile experiences, cloud systems, automation, and product-led growth.
+  </p>
 </div>
 
 </div>
+
+<style>
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+</style>
 
 </section>
 
@@ -337,22 +387,22 @@ ${item}
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-10 text-center">
 
 <div>
-<h3 class="text-5xl font-black text-blue-600">250+</h3>
+<h3 class="text-5xl font-black text-blue-600">120+</h3>
 <p>Projects</p>
 </div>
 
 <div>
-<h3 class="text-5xl font-black text-blue-600">120+</h3>
+<h3 class="text-5xl font-black text-blue-600">100+</h3>
 <p>Clients</p>
 </div>
 
 <div>
-<h3 class="text-5xl font-black text-blue-600">15+</h3>
+<h3 class="text-5xl font-black text-blue-600">3+</h3>
 <p>Countries</p>
 </div>
 
 <div>
-<h3 class="text-5xl font-black text-blue-600">99%</h3>
+<h3 class="text-5xl font-black text-blue-600">98%</h3>
 <p>Satisfaction</p>
 </div>
 
