@@ -94,8 +94,6 @@ export default function About() {
             <div class="absolute top-5 right-5 bg-blue-600 text-white px-6 py-2 rounded-full text-sm font-bold">CEO</div>
           </div>
           <h3 class="text-2xl font-bold mb-2">Garrepelly Manikanta</h3>
-          <p class="text-blue-600 font-semibold text-lg mb-3">CEO & Managing Director</p>
-          <p class="text-gray-600">15+ years of experience in digital transformation and enterprise solutions.</p>
         </div>
       </div>
     </div>

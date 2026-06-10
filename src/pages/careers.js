@@ -11,7 +11,7 @@ export default function Careers() {
     <p class="mt-6 text-xl text-slate-300 max-w-3xl mx-auto">
       Build innovative digital products with a team that values creativity, growth, and impact.
     </p>
-    <a href="/contact" class="inline-block mt-10 bg-blue-600 text-white px-8 py-4 rounded-xl font-medium">
+    <a href="https://forms.gle/jtEWk68yBMuf9vCi9" target="_blank" rel="noopener noreferrer" class="inline-block mt-10 bg-blue-600 text-white px-8 py-4 rounded-xl font-medium">
       Apply Now
     </a>
   </div>
