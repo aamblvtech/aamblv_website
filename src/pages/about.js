@@ -195,8 +195,10 @@ export default function About() {
               <img src="${arunImg}" alt="Arun Kore" class="w-full h-full object-cover" />
             </div>
             <div class="absolute top-3 right-3 bg-pink-600 text-white px-4 py-1 rounded-full text-xs font-bold">JR</div>
- </div>
- </div>
+          </div>
+          <h3 class="text-lg font-bold mb-1">Arun Kore</h3>
+          <p class="text-pink-600 font-semibold text-sm mb-2">Junior Developer</p>
+        </div>
         <!-- Junior Developer 2 -->
         <div class="text-center">
           <div class="relative mb-6 group">
