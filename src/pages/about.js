@@ -195,11 +195,6 @@ export default function About() {
               <img src="${arunImg}" alt="Arun Kore" class="w-full h-full object-cover" />
             </div>
             <div class="absolute top-3 right-3 bg-pink-600 text-white px-4 py-1 rounded-full text-xs font-bold">JR</div>
-          </div>
-          <h3 class="text-lg font-bold mb-1">Arun Kore</h3>
-          <p class="text-pink-600 font-semibold text-sm mb-2">Junior Developer</p>
-          <p class="text-gray-600 text-xs">Skilled in JavaScript and modern frontend frameworks.</p>
-        </div>
 
         <!-- Junior Developer 2 -->
         <div class="text-center">
@@ -211,8 +206,7 @@ export default function About() {
           </div>
           <h3 class="text-lg font-bold mb-1">Chandupriya</h3>
           <p class="text-orange-600 font-semibold text-sm mb-2">Junior Developer</p>
-          <p class="text-gray-600 text-xs">Specializing in backend development and databases.</p>
-        </div>
+         </div>
 
         <!-- Junior Developer 3 -->
         <div class="text-center">
@@ -224,7 +218,6 @@ export default function About() {
           </div>
           <h3 class="text-lg font-bold mb-1">Stalin</h3>
           <p class="text-teal-600 font-semibold text-sm mb-2">Junior Developer</p>
-          <p class="text-gray-600 text-xs">Passionate about web development and problem-solving.</p>
         </div>
 
         <!-- Junior Developer 4 -->
@@ -237,7 +230,6 @@ export default function About() {
           </div>
           <h3 class="text-lg font-bold mb-1">Deepak</h3>
           <p class="text-red-600 font-semibold text-sm mb-2">Junior Developer</p>
-          <p class="text-gray-600 text-xs">Skilled in API development and system integration.</p>
         </div>
 
         <!-- Junior Developer 5 -->
@@ -250,7 +242,6 @@ export default function About() {
           </div>
           <h3 class="text-lg font-bold mb-1">Saiteja</h3>
           <p class="text-cyan-600 font-semibold text-sm mb-2">Junior Developer</p>
-          <p class="text-gray-600 text-xs">Expert in UI/UX implementation and styling.</p>
         </div>
 
         <!-- Junior Developer 6 -->
@@ -263,7 +254,6 @@ export default function About() {
           </div>
           <h3 class="text-lg font-bold mb-1">Ojaswitha</h3>
           <p class="text-yellow-600 font-semibold text-sm mb-2">Junior Developer</p>
-          <p class="text-gray-600 text-xs">Focused on quality assurance and testing.</p>
         </div>
 
       </div>
